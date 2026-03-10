@@ -94,22 +94,19 @@
 
 //6
 //string cumle = "Salam necesiz dostlar";
-//string soz = "";
+
 
 //for (int i = 0; i < cumle.Length; i++)
 //{
 //    if (cumle[i] == ' ')
 //    {
-//        Console.WriteLine(soz);
-//        soz = "";
+//        Console.WriteLine();
 //    }
 //    else
 //    {
-//        soz += cumle[i];
+//        Console.Write(cumle[i]);
 //    }
 //}
-
-//Console.WriteLine(soz);
 
 //Exclusive Task
 
@@ -165,5 +162,36 @@
 //result += current;
 //Console.WriteLine(result);
 
-//Elave Task 1
+//Elave Task 1 istifadeci  153 - 531
 
+//string eded = Console.ReadLine();
+//int[] arr = new int[eded.Length];
+
+//for (int i = 0; i < eded.Length; i++)
+//{
+//    arr[i] = eded[i] - '0';
+//}
+
+//for (int i = 0; i < arr.Length; i++)
+//{
+//    for (int j = 0; j < arr.Length -1; j++)
+//    {
+//        if (arr[j] < arr[j + 1])
+//        {
+//            int temp = arr[j];
+//            arr[j] = arr[j + 1];
+//            arr[j + 1] = temp;
+//        }
+//    }
+//}
+
+//string yeniEded = "";
+
+//foreach (var item in arr)
+//{
+//    yeniEded += item.ToString();
+//}
+
+
+
+//Console.WriteLine("Sıralanmis eded: " + yeniEded);
