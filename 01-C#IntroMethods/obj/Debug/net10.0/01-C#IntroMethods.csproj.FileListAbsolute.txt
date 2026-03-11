@@ -1,0 +1,15 @@
+C:\Users\yek82\Desktop\Projects\APA202\01-C#IntroMethods\bin\Debug\net10.0\01-C#IntroMethods.exe
+C:\Users\yek82\Desktop\Projects\APA202\01-C#IntroMethods\bin\Debug\net10.0\01-C#IntroMethods.deps.json
+C:\Users\yek82\Desktop\Projects\APA202\01-C#IntroMethods\bin\Debug\net10.0\01-C#IntroMethods.runtimeconfig.json
+C:\Users\yek82\Desktop\Projects\APA202\01-C#IntroMethods\bin\Debug\net10.0\01-C#IntroMethods.dll
+C:\Users\yek82\Desktop\Projects\APA202\01-C#IntroMethods\bin\Debug\net10.0\01-C#IntroMethods.pdb
+C:\Users\yek82\Desktop\Projects\APA202\01-C#IntroMethods\obj\Debug\net10.0\01-C#IntroMethods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yek82\Desktop\Projects\APA202\01-C#IntroMethods\obj\Debug\net10.0\01-C#IntroMethods.AssemblyInfoInputs.cache
+C:\Users\yek82\Desktop\Projects\APA202\01-C#IntroMethods\obj\Debug\net10.0\01-C#IntroMethods.AssemblyInfo.cs
+C:\Users\yek82\Desktop\Projects\APA202\01-C#IntroMethods\obj\Debug\net10.0\01-C#IntroMethods.csproj.CoreCompileInputs.cache
+C:\Users\yek82\Desktop\Projects\APA202\01-C#IntroMethods\obj\Debug\net10.0\01-C#IntroMethods.sourcelink.json
+C:\Users\yek82\Desktop\Projects\APA202\01-C#IntroMethods\obj\Debug\net10.0\01-C#IntroMethods.dll
+C:\Users\yek82\Desktop\Projects\APA202\01-C#IntroMethods\obj\Debug\net10.0\refint\01-C#IntroMethods.dll
+C:\Users\yek82\Desktop\Projects\APA202\01-C#IntroMethods\obj\Debug\net10.0\01-C#IntroMethods.pdb
+C:\Users\yek82\Desktop\Projects\APA202\01-C#IntroMethods\obj\Debug\net10.0\01-C#IntroMethods.genruntimeconfig.cache
+C:\Users\yek82\Desktop\Projects\APA202\01-C#IntroMethods\obj\Debug\net10.0\ref\01-C#IntroMethods.dll
