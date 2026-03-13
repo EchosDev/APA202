@@ -7,7 +7,7 @@ namespace _01_C_IntroMethods
         static void Main(string[] args)
         {
             //1
-            //Console.WriteLine(Math('*', 3, 4));
+            Console.WriteLine(Math('*', 3, 4));
 
             //2
             //Console.Write("Nece eded daxil etmek isteyirsiniz:");

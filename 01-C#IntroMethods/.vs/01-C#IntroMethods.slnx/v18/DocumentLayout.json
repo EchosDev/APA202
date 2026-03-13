@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\01-C#IntroMethods\\",
+  "WorkspaceRootPath": "C:\\Users\\Echos\\Desktop\\APA202\\01-C#IntroMethods\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0E8A18BB-BDC6-4C05-BB14-6CF0AE9F7840}|01-C#IntroMethods.csproj|c:\\users\\yek82\\desktop\\projects\\apa202\\01-c#intromethods\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E8A18BB-BDC6-4C05-BB14-6CF0AE9F7840}|01-C#IntroMethods.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B8233DF-67AE-10E4-75BE-845C0C56C3F1}|01-C#IntroMethods.csproj|c:\\users\\echos\\desktop\\apa202\\01-c#intromethods\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B8233DF-67AE-10E4-75BE-845C0C56C3F1}|01-C#IntroMethods.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\01-C#IntroMethods\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Echos\\Desktop\\APA202\\01-C#IntroMethods\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\01-C#IntroMethods\\Program.cs",
+              "ToolTip": "C:\\Users\\Echos\\Desktop\\APA202\\01-C#IntroMethods\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAIwHMAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-11T17:54:45.692Z",
               "EditorCaption": ""

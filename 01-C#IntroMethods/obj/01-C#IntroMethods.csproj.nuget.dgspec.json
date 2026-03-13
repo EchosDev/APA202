@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\01-C#IntroMethods\\01-C#IntroMethods.csproj": {}
+    "C:\\Users\\Echos\\Desktop\\APA202\\01-C#IntroMethods\\01-C#IntroMethods.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\01-C#IntroMethods\\01-C#IntroMethods.csproj": {
+    "C:\\Users\\Echos\\Desktop\\APA202\\01-C#IntroMethods\\01-C#IntroMethods.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\01-C#IntroMethods\\01-C#IntroMethods.csproj",
+        "projectUniqueName": "C:\\Users\\Echos\\Desktop\\APA202\\01-C#IntroMethods\\01-C#IntroMethods.csproj",
         "projectName": "01-C#IntroMethods",
-        "projectPath": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\01-C#IntroMethods\\01-C#IntroMethods.csproj",
-        "packagesPath": "C:\\Users\\yek82\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\01-C#IntroMethods\\obj\\",
+        "projectPath": "C:\\Users\\Echos\\Desktop\\APA202\\01-C#IntroMethods\\01-C#IntroMethods.csproj",
+        "packagesPath": "C:\\Users\\Echos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Echos\\Desktop\\APA202\\01-C#IntroMethods\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\yek82\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Echos\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
