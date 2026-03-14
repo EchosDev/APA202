@@ -16,10 +16,15 @@
                 arr[i] = Convert.ToInt32(Console.ReadLine());
             }
 
-            CustomArrResize(nums,arr);
+            CustomArrResize(ref nums,arr);
+
+            foreach (var item in nums)
+            {
+                Console.Write(item + " ");
+            }
         }
 
-        public static void CustomArrResize(int[] nums, int[] arr)
+        public static void CustomArrResize(ref int[] nums, int[] arr)
         {
             int[] newArr = new int[nums.Length + arr.Length];
 
@@ -31,11 +36,6 @@
             for (int i = 0; i < arr.Length; i++)
             {
                 newArr[nums.Length + i] = arr[i];
-            }
-
-            foreach (var item in newArr)
-            {
-                Console.Write(item + " ");
             }
 
             nums = newArr;
