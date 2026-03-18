@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\04-AccessModifiresEncupsulationNamespace\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F80C83B7-0B68-2D9C-3F38-25AA49C37F02}|04-AccessModifiresEncupsulationNamespace.csproj|c:\\users\\yek82\\desktop\\projects\\apa202\\04-accessmodifiresencupsulationnamespace\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F80C83B7-0B68-2D9C-3F38-25AA49C37F02}|04-AccessModifiresEncupsulationNamespace.csproj|solutionrelative:models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F80C83B7-0B68-2D9C-3F38-25AA49C37F02}|04-AccessModifiresEncupsulationNamespace.csproj|c:\\users\\yek82\\desktop\\projects\\apa202\\04-accessmodifiresencupsulationnamespace\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F80C83B7-0B68-2D9C-3F38-25AA49C37F02}|04-AccessModifiresEncupsulationNamespace.csproj|solutionrelative:models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F80C83B7-0B68-2D9C-3F38-25AA49C37F02}|04-AccessModifiresEncupsulationNamespace.csproj|c:\\users\\yek82\\desktop\\projects\\apa202\\04-accessmodifiresencupsulationnamespace\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80C83B7-0B68-2D9C-3F38-25AA49C37F02}|04-AccessModifiresEncupsulationNamespace.csproj|solutionrelative:models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F80C83B7-0B68-2D9C-3F38-25AA49C37F02}|04-AccessModifiresEncupsulationNamespace.csproj|c:\\users\\yek82\\desktop\\projects\\apa202\\04-accessmodifiresencupsulationnamespace\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Car.cs",
               "DocumentMoniker": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\04-AccessModifiresEncupsulationNamespace\\Models\\Car.cs",
               "RelativeDocumentMoniker": "Models\\Car.cs",
@@ -39,13 +39,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Vehicle.cs",
               "DocumentMoniker": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\04-AccessModifiresEncupsulationNamespace\\Models\\Vehicle.cs",
               "RelativeDocumentMoniker": "Models\\Vehicle.cs",
               "ToolTip": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\04-AccessModifiresEncupsulationNamespace\\Models\\Vehicle.cs",
               "RelativeToolTip": "Models\\Vehicle.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA5wCIAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T17:46:07.708Z",
               "EditorCaption": ""
@@ -60,8 +60,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T17:38:57.509Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T17:38:57.509Z"
             }
           ]
         }
