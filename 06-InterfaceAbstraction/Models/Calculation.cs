@@ -22,9 +22,10 @@ namespace _06_InterfaceAbstraction.Models
                 case '/':
                     if (b == 0)
                     {
-                        Console.WriteLine("0-a bölmək olmaz!");
+                        Console.WriteLine("0-a bolmek olmaz!");
                         return 0;
                     }
+
                     return a / b;
 
                 default:
