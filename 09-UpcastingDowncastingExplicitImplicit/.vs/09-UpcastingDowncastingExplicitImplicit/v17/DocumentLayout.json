@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\APA202\\09-UpcastingDowncastingExplicitImplicit\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C75AE910-7B72-4008-A3BA-547EFEA72938}|09-UpcastingDowncastingExplicitImplicit.csproj|c:\\users\\classtime.pc_3_506_16\\desktop\\apa202\\09-upcastingdowncastingexplicitimplicit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75AE910-7B72-4008-A3BA-547EFEA72938}|09-UpcastingDowncastingExplicitImplicit.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75AE910-7B72-4008-A3BA-547EFEA72938}|09-UpcastingDowncastingExplicitImplicit.csproj|c:\\users\\classtime.pc_3_506_16\\desktop\\apa202\\09-upcastingdowncastingexplicitimplicit\\models\\dolar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75AE910-7B72-4008-A3BA-547EFEA72938}|09-UpcastingDowncastingExplicitImplicit.csproj|solutionrelative:models\\dolar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75AE910-7B72-4008-A3BA-547EFEA72938}|09-UpcastingDowncastingExplicitImplicit.csproj|c:\\users\\classtime.pc_3_506_16\\desktop\\apa202\\09-upcastingdowncastingexplicitimplicit\\models\\manat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75AE910-7B72-4008-A3BA-547EFEA72938}|09-UpcastingDowncastingExplicitImplicit.csproj|solutionrelative:models\\manat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Manat.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\APA202\\09-UpcastingDowncastingExplicitImplicit\\Models\\Manat.cs",
+              "RelativeDocumentMoniker": "Models\\Manat.cs",
+              "ToolTip": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\APA202\\09-UpcastingDowncastingExplicitImplicit\\Models\\Manat.cs",
+              "RelativeToolTip": "Models\\Manat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T12:32:04.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dolar.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\APA202\\09-UpcastingDowncastingExplicitImplicit\\Models\\Dolar.cs",
+              "RelativeDocumentMoniker": "Models\\Dolar.cs",
+              "ToolTip": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\APA202\\09-UpcastingDowncastingExplicitImplicit\\Models\\Dolar.cs",
+              "RelativeToolTip": "Models\\Dolar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T12:31:57.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\APA202\\09-UpcastingDowncastingExplicitImplicit\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\APA202\\09-UpcastingDowncastingExplicitImplicit\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwEAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T12:06:49.074Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
