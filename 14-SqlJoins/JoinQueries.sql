@@ -1,4 +1,5 @@
 create database Company
+go
 use Company
 
 create table Countries (
