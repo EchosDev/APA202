@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>16-Tables</title>
+</head>
+
+<style>
+    section {
+        margin-top: 20px;
+    }
+
+    .Table5 table,
+    .Table5 tr,
+    .Table5 td,
+    .Table5 th {
+        width: 200px;
+        border-collapse: collapse;
+    }
+</style>
+
+<body>
+    <section class="Table1">
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
+            </tr>
+            <tr>
+                <td>Harry Deep</td>
+                <td>28</td>
+                <td>Britain</td>
+            </tr>
+            <tr>
+                <td>John Smith</td>
+                <td>35</td>
+                <td>USA</td>
+            </tr>
+            <tr>
+                <td>Ram Krishna</td>
+                <td>19</td>
+                <td>Nepal</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="Table2">
+        <table border="1">
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+            </tr>
+            <tr>
+                <td>Butter</td>
+                <td>3 Kq</td>
+            </tr>
+            <tr>
+                <td>Milk</td>
+                <td>3 Lt</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="Table3">
+        <table border="1">
+            <caption>Product Info</caption>
+            <tr>
+                <th>Product</th>
+                <th>Flavors</th>
+            </tr>
+            <tr>
+                <td rowspan="3">Milk</td>
+                <td>Almond</td>
+            </tr>
+            <tr>
+                <td>Mango</td>
+            </tr>
+            <tr>
+                <td>Chocolate</td>
+            </tr>
+            <tr>
+                <td colspan="2">These are exclusive flavors</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="Table4">
+        <table border="1" style="border-collapse: collapse;">
+            <tr>
+                <td rowspan="6">Section</td>
+                <td rowspan="3">Subsection</td>
+                <td>Text 1</td>
+            </tr>
+            <tr>
+                <td>Text 2</td>
+            </tr>
+            <tr>
+                <td>Text 3</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Subsection 2</td>
+                <td>Text 4</td>
+            </tr>
+            <tr>
+                <td>Text 5</td>
+            </tr>
+            <tr>
+                <td>Subsection 3</td>
+                <td>Text 6</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="Table5">
+        <table border="1">
+            <tr>
+                <td>1</td>
+                <td rowspan="2">2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="Table6">
+        <table border="1" style="width: 300px; border-collapse: collapse;">
+            <tr>
+                <td>ID</td>
+                <td>Name</td>
+                <td>Subject</td>
+                <td>Marks</td>
+            </tr>
+            <tr>
+                <td rowspan="3">1</td>
+                <td rowspan="3">David</td>
+                <td>Math</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Pysics</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Computers</td>
+                <td>70</td>
+            </tr>
+            <tr>
+                <td rowspan="3">2</td>
+                <td rowspan="3">Alex</td>
+                <td>Maths</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Pysics</td>
+                <td>70</td>
+            </tr>
+            <tr>
+                <td>Computers</td>
+                <td>90</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="Table7">
+        <table border="1" style="border-collapse: collapse; width: 300px;">
+            <tr>
+                <th colspan="3">Product</th>
+            </tr>
+            <tr>
+                <th>No</th>
+                <th>P.Name</th>
+                <th>P.Count</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Pen</td>
+                <td rowspan="3">50</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Book</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Dust</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="Table8">
+        <table border="1" style="width: 300px; border-collapse: collapse;">
+            <tr>
+                <th rowspan="2">A</th>
+                <th>B</th>
+                <th rowspan="3">D</th>
+                <th colspan="2">E</th>
+                <th>F</th>
+            </tr>
+            <tr>
+                <th>C</th>
+                <th rowspan="2">G</th>
+                <th rowspan="2">H</th>
+                <th rowspan="2">I</th>
+            </tr>
+            <tr>
+                <th colspan="2">J</th>
+            </tr>
+            <tr>
+                <th colspan="3">K</th>
+                <th>L</th>
+                <th colspan="2">M</th>
+            </tr>
+        </table>
+    </section>
+
+    <section class="Table9">
+        <table border="2" style="border-collapse: collapse; width: 1000px; height: 300px; text-align: center;"">
+            <tr>
+                <th>Day/Period</th>
+                <th>I <br> 9:30-10:20</th>
+                <th>II <br> 10:20-11:10</th>
+                <th>III <br> 11:10-12:00</th>
+                <th>12:00-12:40</th>
+                <th>IV <br> 12:40-1:30</th>
+                <th>V <br> 1:30-2:20</th>
+                <th>VI <br> 2:20-3:10</th>
+                <th>VII <br> 3:10-4:00</th>
+            </tr>
+            <tr>
+                <th>Monday</th>
+                <td>Eng</td>
+                <td>Mat</td>
+                <td>Che</td>
+                <th rowspan=" 6">L<br>U<br>N<br>C<br>H</th>
+            <td colspan="3">LAB</td>
+            <td>Phy</td>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td colspan="3">LAB</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td>Mat</td>
+                <td>SPORTS</td>
+            </tr>
+            <tr>
+                <th>Wednesday</th>
+                <td>Mat</td>
+                <td>Phy</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td colspan="3">LIBRARY</td>
+            </tr>
+            <tr>
+                <th>Thursday</th>
+                <td>Phy</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td colspan="3">LAB</td>
+                <td>Mat</td>
+            </tr>
+            <tr>
+                <th>Friday</th>
+                <td colspan="3">LAB</td>
+                <td>Mat</td>
+                <td>Che</td>
+                <td>Eng</td>
+                <td>Phy</td>
+            </tr>
+            <tr>
+                <th>Saturday</th>
+                <td>Eng</td>
+                <td>Che</td>
+                <td>Mat</td>
+                <td colspan="3">Seminar</td>
+                <td>SPORTS</td>
+            </tr>
+        </table>
+    </section>
+    
+</body>
+
+</html>
