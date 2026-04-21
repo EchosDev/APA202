@@ -1,0 +1,56 @@
+body {
+    background-color: #f2e8d5;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    text-align: center;
+    padding: 50px;
+    max-width: 800px;
+}
+
+.small-gold {
+    color: #b08d57;
+    letter-spacing: 5px;
+    margin-bottom: -20px; 
+}
+
+.title {
+    font-family: 'Cursive', serif;
+    font-size: 120px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.gold-text {
+    color: #b08d57;
+    font-size: 32px;
+    letter-spacing: 8px;
+    margin-top: 10px;
+}
+
+.black-text {
+    color: #1a1a1a;
+    font-size: 24px;
+    letter-spacing: 4px;
+    margin: 20px 0;
+}
+
+.italic-gold {
+    color: #b08d57;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.footer-bar {
+    background-color: #8b6b4a;
+    color: #f2e8d5;
+    margin-top: 50px;
+    padding: 15px;
+    display: flex;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
