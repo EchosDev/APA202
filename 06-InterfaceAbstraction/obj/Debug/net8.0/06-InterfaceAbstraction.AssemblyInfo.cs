@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("06-InterfaceAbstraction")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b827b57b485e8518f8d23c499bd37ec3cf02f38")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e77740f9df167a978e52c24401db51e294f51ff")]
 [assembly: System.Reflection.AssemblyProductAttribute("06-InterfaceAbstraction")]
 [assembly: System.Reflection.AssemblyTitleAttribute("06-InterfaceAbstraction")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

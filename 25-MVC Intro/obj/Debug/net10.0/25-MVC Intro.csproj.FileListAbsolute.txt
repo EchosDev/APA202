@@ -1,0 +1,31 @@
+C:\Users\yek82\Desktop\Projects\25-MVC Intro\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\yek82\Desktop\Projects\25-MVC Intro\bin\Debug\net10.0\appsettings.json
+C:\Users\yek82\Desktop\Projects\25-MVC Intro\bin\Debug\net10.0\25-MVC Intro.staticwebassets.endpoints.json
+C:\Users\yek82\Desktop\Projects\25-MVC Intro\bin\Debug\net10.0\25-MVC Intro.exe
+C:\Users\yek82\Desktop\Projects\25-MVC Intro\bin\Debug\net10.0\25-MVC Intro.deps.json
+C:\Users\yek82\Desktop\Projects\25-MVC Intro\bin\Debug\net10.0\25-MVC Intro.runtimeconfig.json
+C:\Users\yek82\Desktop\Projects\25-MVC Intro\bin\Debug\net10.0\25-MVC Intro.dll
+C:\Users\yek82\Desktop\Projects\25-MVC Intro\bin\Debug\net10.0\25-MVC Intro.pdb
+C:\Users\yek82\Desktop\Projects\25-MVC Intro\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\yek82\Desktop\Projects\25-MVC Intro\obj\Debug\net10.0\25-MVC Intro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yek82\Desktop\Projects\25-MVC Intro\obj\Debug\net10.0\25-MVC Intro.AssemblyInfoInputs.cache
+C:\Users\yek82\Desktop\Projects\25-MVC Intro\obj\Debug\net10.0\25-MVC Intro.AssemblyInfo.cs
+C:\Users\yek82\Desktop\Projects\25-MVC Intro\obj\Debug\net10.0\25-MVC Intro.csproj.CoreCompileInputs.cache
+C:\Users\yek82\Desktop\Projects\25-MVC Intro\obj\Debug\net10.0\25-MVC Intro.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\yek82\Desktop\Projects\25-MVC Intro\obj\Debug\net10.0\25-MVC Intro.RazorAssemblyInfo.cache
+C:\Users\yek82\Desktop\Projects\25-MVC Intro\obj\Debug\net10.0\25-MVC Intro.RazorAssemblyInfo.cs
+C:\Users\yek82\Desktop\Projects\25-MVC Intro\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\yek82\Desktop\Projects\25-MVC Intro\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\yek82\Desktop\Projects\25-MVC Intro\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\yek82\Desktop\Projects\25-MVC Intro\obj\Debug\net10.0\scopedcss\bundle\25-MVC Intro.styles.css
+C:\Users\yek82\Desktop\Projects\25-MVC Intro\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\yek82\Desktop\Projects\25-MVC Intro\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\yek82\Desktop\Projects\25-MVC Intro\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\yek82\Desktop\Projects\25-MVC Intro\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\yek82\Desktop\Projects\25-MVC Intro\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\yek82\Desktop\Projects\25-MVC Intro\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\yek82\Desktop\Projects\25-MVC Intro\obj\Debug\net10.0\25-MVC Intro.dll
+C:\Users\yek82\Desktop\Projects\25-MVC Intro\obj\Debug\net10.0\refint\25-MVC Intro.dll
+C:\Users\yek82\Desktop\Projects\25-MVC Intro\obj\Debug\net10.0\25-MVC Intro.pdb
+C:\Users\yek82\Desktop\Projects\25-MVC Intro\obj\Debug\net10.0\25-MVC Intro.genruntimeconfig.cache
+C:\Users\yek82\Desktop\Projects\25-MVC Intro\obj\Debug\net10.0\ref\25-MVC Intro.dll

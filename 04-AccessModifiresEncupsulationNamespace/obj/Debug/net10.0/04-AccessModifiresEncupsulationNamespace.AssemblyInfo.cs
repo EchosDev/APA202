@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("04-AccessModifiresEncupsulationNamespace")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ba2ccfc472f6e4dd3126f8baaa20e8618431bae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e77740f9df167a978e52c24401db51e294f51ff")]
 [assembly: System.Reflection.AssemblyProductAttribute("04-AccessModifiresEncupsulationNamespace")]
 [assembly: System.Reflection.AssemblyTitleAttribute("04-AccessModifiresEncupsulationNamespace")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
