@@ -1,0 +1,21 @@
+﻿@using _26_DynamicPropertiesViewModel.ViewModel
+@model HomeVM
+
+<h2>Home Page</h2>
+@{var count =0;}
+
+<table border="1">
+    <tr>
+        <th></th>
+        <th>Name</th>
+        <th>Last Name</th>
+    </tr>
+    @foreach (var item in Model.Students)
+    {
+        <tr>
+            <td>@(++count)</td>
+            <td>@item.Name</td>
+            <td>@item.LastName</td>
+        </tr>
+    }
+</table>
