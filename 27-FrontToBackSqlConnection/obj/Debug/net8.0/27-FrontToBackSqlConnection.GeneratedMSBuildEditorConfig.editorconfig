@@ -24,8 +24,12 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Classtime.PC_3_506_16/Desktop/APA202/27-FrontToBackSqlConnection/Views/ShopControllers/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcENvbnRyb2xsZXJzXEluZGV4LmNzaHRtbA==
+[C:/Users/Classtime.PC_3_506_16/Desktop/APA202/27-FrontToBackSqlConnection/Views/Shop/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Classtime.PC_3_506_16/Desktop/APA202/27-FrontToBackSqlConnection/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Classtime.PC_3_506_16/Desktop/APA202/27-FrontToBackSqlConnection/Views/_ViewStart.cshtml]

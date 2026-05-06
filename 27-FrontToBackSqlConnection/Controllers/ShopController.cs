@@ -2,7 +2,7 @@
 
 namespace _27_FrontToBackSqlConnection.Controllers
 {
-    public class ShopControllers : Controller
+    public class ShopController : Controller
     {
         public IActionResult Index()
         {
