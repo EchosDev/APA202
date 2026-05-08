@@ -12,21 +12,21 @@ namespace _27_FrontToBackSqlConnection.Controllers
         {
             _context = context;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> IndexAsync()
         {
 
-            var sliders = _context.Sliders
+            var sliders = await _context.Sliders
                 .Where(s => !s.IsDeleted)
                 .OrderBy(s => s.Order)
                 .Take(2)
-                .ToList();
+                .ToListAsync();
 
-            var products = _context.Products
+            var products = await _context.Products
                 .Where(p => !p.IsDeleted)
-                .Include(x => x.ProductImages)
+                .Include(x => x.ProductImages.Where(pi=> pi.IsPrimary != null && !pi.IsDeleted))
                 .Include(x => x.Category)
                 .Take(4)
-                .ToList();
+                .ToListAsync();
 
             var homeVM = new HomeVM
             {

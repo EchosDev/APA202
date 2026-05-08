@@ -3,28 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|c:\\users\\classtime.pc_3_506_16\\desktop\\gunorta\\apa202\\27-fronttobacksqlconnection\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|solutionrelative:controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|c:\\users\\classtime.pc_3_506_16\\desktop\\gunorta\\apa202\\27-fronttobacksqlconnection\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|c:\\users\\classtime.pc_3_506_16\\desktop\\gunorta\\apa202\\27-fronttobacksqlconnection\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|c:\\users\\classtime.pc_3_506_16\\desktop\\gunorta\\apa202\\27-fronttobacksqlconnection\\views\\shop\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|solutionrelative:views\\shop\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|c:\\users\\classtime.pc_3_506_16\\desktop\\gunorta\\apa202\\27-fronttobacksqlconnection\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|solutionrelative:views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|c:\\users\\classtime.pc_3_506_16\\desktop\\gunorta\\apa202\\27-fronttobacksqlconnection\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|c:\\users\\classtime.pc_3_506_16\\desktop\\gunorta\\apa202\\27-fronttobacksqlconnection\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|solutionrelative:viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|c:\\users\\classtime.pc_3_506_16\\desktop\\gunorta\\apa202\\27-fronttobacksqlconnection\\viewmodels\\detailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|solutionrelative:viewmodels\\detailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|c:\\users\\classtime.pc_3_506_16\\desktop\\gunorta\\apa202\\27-fronttobacksqlconnection\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|c:\\users\\classtime.pc_3_506_16\\desktop\\gunorta\\apa202\\27-fronttobacksqlconnection\\data\\appdbcontextclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|solutionrelative:data\\appdbcontextclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|c:\\users\\classtime.pc_3_506_16\\desktop\\gunorta\\apa202\\27-fronttobacksqlconnection\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|c:\\users\\classtime.pc_3_506_16\\desktop\\gunorta\\apa202\\27-fronttobacksqlconnection\\viewmodels\\shopvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|solutionrelative:viewmodels\\shopvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|c:\\users\\classtime.pc_3_506_16\\desktop\\gunorta\\apa202\\27-fronttobacksqlconnection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|c:\\users\\classtime.pc_3_506_16\\desktop\\gunorta\\apa202\\27-fronttobacksqlconnection\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|solutionrelative:viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|c:\\users\\classtime.pc_3_506_16\\desktop\\gunorta\\apa202\\27-fronttobacksqlconnection\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,24 +58,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\Views\\Shop\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shop\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\Views\\Shop\\Details.cshtml",
+              "RelativeToolTip": "Views\\Shop\\Details.cshtml",
+              "ViewState": "AgIAAK8BAAAAAAAAAAAAAMUBAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T13:01:26.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DetailsVM.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\ViewModels\\DetailsVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\DetailsVM.cs",
+              "ToolTip": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\ViewModels\\DetailsVM.cs",
+              "RelativeToolTip": "ViewModels\\DetailsVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T12:53:59.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAYwJQAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAIwMcAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-07T13:22:55.834Z",
+              "WhenOpened": "2026-05-08T12:48:05.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T12:48:01.095Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\Views\\Shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shop\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\Views\\Shop\\Index.cshtml",
+              "RelativeToolTip": "Views\\Shop\\Index.cshtml",
+              "ViewState": "AgIAACABAAAAAAAAAAAmwDABAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T12:46:51.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ShopVM.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\ViewModels\\ShopVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ShopVM.cs",
+              "ToolTip": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\ViewModels\\ShopVM.cs",
+              "RelativeToolTip": "ViewModels\\ShopVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T12:45:44.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ShopController.cs",
+              "ToolTip": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "Controllers\\ShopController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAowCwAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T12:42:46.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T12:21:14.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "HomeVM.cs",
               "DocumentMoniker": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\ViewModels\\HomeVM.cs",
               "RelativeDocumentMoniker": "ViewModels\\HomeVM.cs",
@@ -64,20 +179,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA1wCUAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-07T13:07:44.078Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "AppDbContextClass.cs",
               "DocumentMoniker": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\Data\\AppDbContextClass.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContextClass.cs",
@@ -90,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Models\\Category.cs",
@@ -98,21 +213,7 @@
               "RelativeToolTip": "Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T13:05:38.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Models\\Product.cs",
-              "ToolTip": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\Models\\Product.cs",
-              "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T13:04:34.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-07T13:05:38.605Z"
             }
           ]
         }
