@@ -31,7 +31,7 @@ namespace _27_FrontToBackSqlConnection.Controllers
         }
         public async Task<IActionResult> Details(int? id)
         {
-            if (id is null && id < 1) return BadRequest();
+            if (id is null || id < 1) return BadRequest();
 
             Product? product = await _context.Products
                 .Where(p => !p.IsDeleted)
