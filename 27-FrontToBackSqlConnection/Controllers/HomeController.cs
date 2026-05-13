@@ -18,7 +18,7 @@ namespace _27_FrontToBackSqlConnection.Controllers
             var sliders = await _context.Sliders
                 .Where(s => !s.IsDeleted)
                 .OrderBy(s => s.Order)
-                .Take(2)
+                //.Take(4)
                 .ToListAsync();
 
             var products = await _context.Products

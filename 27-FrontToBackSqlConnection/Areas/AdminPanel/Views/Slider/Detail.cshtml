@@ -1,0 +1,62 @@
+﻿@model Slider
+<div class="row">
+
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Slider Info</h4>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>
+                                    Id
+                                </th>
+                                <th>
+                                    Image
+                                </th>
+                                <th>
+                                    Title
+                                </th>
+                                <th>
+                                    Subtitle
+                                </th>
+                                <th>
+                                    Order
+                                </th>
+                                <th>
+                                    Description
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    @Model.Id
+                                </td>
+                                <td>
+                                    <img src="~/assets/images/website-images//@Model.Image" />
+                                </td>
+                                <td>
+                                    @Model.Title
+                                </td>
+                                <td>
+                                    @Model.Subtitle
+                                </td>
+                                <td>
+                                    @Model.Order
+                                </td>
+                                <td>
+                                    @Model.Description
+                                </td>
+                                <td>
+                                    <a asp-action="index" class="btn btn-outline-warning">Back</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
