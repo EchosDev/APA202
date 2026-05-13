@@ -77,7 +77,48 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
 
             if (category is null) return NotFound();
 
-            category.IsDeleted = true;
+            //category.IsDeleted = true;
+
+            _context.Categories.Remove(category);
+
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> Update(int? id)
+        {
+            if (id is null || id < 1) return BadRequest();
+
+            Category? category = await _context.Categories
+                .FirstOrDefaultAsync(c => !c.IsDeleted && c.Id == id);
+
+            if (category is null) return NotFound();
+
+            return View(category);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Update(int? id,Category newCategory)
+        {
+            if (id is null || id < 1) return BadRequest();
+
+            Category? category = await _context.Categories
+                .FirstOrDefaultAsync(c => !c.IsDeleted && c.Id == id);
+
+            if (category is null) return NotFound();
+
+            if (!ModelState.IsValid) return View(category);
+
+            bool existCategory = await _context.Categories.AnyAsync(c => c.Name.Trim() == newCategory.Name.Trim() && c.Id != id);
+
+            if (existCategory)
+            {
+                ModelState.AddModelError(nameof(Category.Name), "Category already exist");
+                return View(category);
+            }
+
+            category.Name = newCategory.Name;
 
             await _context.SaveChangesAsync();
 
