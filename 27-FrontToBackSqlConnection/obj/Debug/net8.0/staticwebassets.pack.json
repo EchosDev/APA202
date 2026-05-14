@@ -3773,10 +3773,6 @@
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\1-2-370x300.jpg"
     },
     {
-      "Id": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\wwwroot\\assets\\images\\website-images\\1-2-524x617.png",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\1-2-524x617.png"
-    },
-    {
       "Id": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\wwwroot\\assets\\images\\website-images\\1-2-570x633.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\1-2-570x633.jpg"
     },
@@ -3883,6 +3879,14 @@
     {
       "Id": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\wwwroot\\assets\\images\\website-images\\3.png",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\wwwroot\\assets\\images\\website-images\\50b0f7bc-e04b-4cb1-9eb0-7ae025077c83.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\50b0f7bc-e04b-4cb1-9eb0-7ae025077c83.png"
+    },
+    {
+      "Id": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\wwwroot\\assets\\images\\website-images\\c97c5a7f-383b-45b4-b576-5f370bc6ac5d.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\c97c5a7f-383b-45b4-b576-5f370bc6ac5d.jpg"
     },
     {
       "Id": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\wwwroot\\assets\\images\\website-images\\car.png",

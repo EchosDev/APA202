@@ -8,6 +8,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Areas\AdminPanel\Data\**" />
+    <Compile Remove="Areas\AdminPanel\Models\**" />
+    <Content Remove="Areas\AdminPanel\Data\**" />
+    <Content Remove="Areas\AdminPanel\Models\**" />
+    <EmbeddedResource Remove="Areas\AdminPanel\Data\**" />
+    <EmbeddedResource Remove="Areas\AdminPanel\Models\**" />
+    <None Remove="Areas\AdminPanel\Data\**" />
+    <None Remove="Areas\AdminPanel\Models\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.26" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.26" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.26">
@@ -18,8 +29,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\AdminPanel\Data\" />
-    <Folder Include="Areas\AdminPanel\Models\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 

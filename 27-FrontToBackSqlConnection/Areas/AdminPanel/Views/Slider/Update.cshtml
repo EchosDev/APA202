@@ -1,12 +1,14 @@
-﻿@model Slider
+﻿@model SliderUpdateVM
 
 <div class="col-md-6 grid-margin stretch-card">
     <div class="card">
         <div class="card-body">
             <h4 class="card-title">Create Slider</h4>
             <form class="forms-sample" method="post" enctype="multipart/form-data">
-
                 <div class="form-group">
+                    <img style="width: 100px;height:100px" src="~/assets/images/website-images/@Model.Image" />
+                </div>
+                <div class="form-group">1-2-524x617.png
                     <label for="Photo">Image</label>
                     <input asp-for="Photo" class="form-control" placeholder="Image">
                     <span asp-validation-for="Photo" class="text-danger"></span>
