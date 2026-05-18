@@ -1,4 +1,4 @@
-﻿namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.ViewModels.Sliders
+﻿namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.ViewModels
 {
     public class SliderDetailVM
     {

@@ -1,4 +1,4 @@
-﻿using _27_FrontToBackSqlConnection.Areas.AdminPanel.ViewModels.Sliders;
+﻿using _27_FrontToBackSqlConnection.Areas.AdminPanel.ViewModels;
 using _27_FrontToBackSqlConnection.Data;
 using _27_FrontToBackSqlConnection.Models;
 using _27_FrontToBackSqlConnection.Utilities.Enums;

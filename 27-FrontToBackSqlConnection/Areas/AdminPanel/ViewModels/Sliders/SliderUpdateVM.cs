@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
-namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.ViewModels.Sliders
+namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.ViewModels
 {
     public class SliderUpdateVM
     {

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\27-FrontToBackSqlConnection.csproj": {}
+    "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\27-FrontToBackSqlConnection.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\27-FrontToBackSqlConnection.csproj": {
+    "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\27-FrontToBackSqlConnection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\27-FrontToBackSqlConnection.csproj",
+        "projectUniqueName": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\27-FrontToBackSqlConnection.csproj",
         "projectName": "27-FrontToBackSqlConnection",
-        "projectPath": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\27-FrontToBackSqlConnection.csproj",
-        "packagesPath": "C:\\Users\\Classtime.PC_3_506_16\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Classtime.PC_3_506_16\\Desktop\\Gunorta\\APA202\\27-FrontToBackSqlConnection\\obj\\",
+        "projectPath": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\27-FrontToBackSqlConnection.csproj",
+        "packagesPath": "C:\\Users\\yek82\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Classtime.PC_3_506_16\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yek82\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -30,6 +30,7 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -44,10 +45,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
@@ -88,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

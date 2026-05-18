@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.ViewModels.Sliders
+namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.ViewModels
 {
     public class SliderCreateVM
     {

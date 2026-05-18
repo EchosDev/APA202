@@ -1,0 +1,49 @@
+﻿@model ProductCreateVM
+
+<div class="col-md-6 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Create Product</h4>
+            <form class="forms-sample" method="post" enctype="multipart/form-data">
+
+                @* <div class="form-group">
+                    <label for="Photo">Image</label>
+                    <input asp-for="Photo" class="form-control" placeholder="Image">
+                    <span asp-validation-for="Photo" class="text-danger"></span>
+                </div> *@
+                <div class="form-group">
+                    <label for="Name">Name</label>
+                    <input asp-for="Name" class="form-control" placeholder="Name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label for="Price">Price</label>
+                    <input asp-for="Price" class="form-control" placeholder="Price">
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label for="Sku">Sku</label>
+                    <input asp-for="Sku" class="form-control" placeholder="Sku">
+                    <span asp-validation-for="Sku" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="CategoryId">Category</label>
+                    <select asp-for="CategoryId" asp-items="new SelectList(Model.Categories,nameof(Category.Id),nameof(Category.Name))" class="form-control">
+                        <option value="" disabled selected>Choose Category</option>
+                    </select>
+                    <span asp-validation-for="CategoryId" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="Description">Description</label>
+                    <textarea asp-for="Description" class="form-control" placeholder="Description"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary me-2">Submit</button>
+                <a asp-action="index" class="btn btn-light">Cancel</a>
+            </form>
+        </div>
+    </div>
+</div>
