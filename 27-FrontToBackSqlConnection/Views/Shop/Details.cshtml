@@ -165,14 +165,22 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="product-category product-tags">
-                            <span class="title">Tags :</span>
-                            <ul>
-                                <li>
-                                    <a href="#">Furniture</a>
-                                </li>
-                            </ul>
-                        </div>
+
+                        @if (Model.Product.ProductTags.Any())
+                        {
+                            <div class="product-category product-tags">
+                                <span class="title">Tags :</span>
+                                <ul>
+                                    @foreach (var tag in Model.Product.ProductTags)
+                                    {
+                                        <li>
+                                            <a href="#">@tag.Tag.Name</a>
+                                        </li>
+                                    }
+                                </ul>
+                            </div>
+                        }
+
                         <div class="product-category social-link align-items-center pb-0">
                             <span class="title pe-3">Share:</span>
                             <ul>
@@ -442,10 +450,10 @@
                                     <div class="product-img">
                                         <a asp-controller="shop" asp-action="details" asp-route-id="@product.Id">
                                             <img class="primary-img"
-                                                 src="~/assets/images/website-images/@product.ProductImages.FirstOrDefault(pi=> !pi.IsDeleted && pi.IsPrimary == true)?.Image"
+                                                 src="~/assets/images/website-images/@product.ProductImages.FirstOrDefault(pi => !pi.IsDeleted && pi.IsPrimary == true)?.Image"
                                                  alt="Product Images" />
                                             <img class="secondary-img"
-                                                 src="~/assets/images/website-images/@product.ProductImages.FirstOrDefault(pi=> !pi.IsDeleted && pi.IsPrimary == false)?.Image"
+                                                 src="~/assets/images/website-images/@product.ProductImages.FirstOrDefault(pi => !pi.IsDeleted && pi.IsPrimary == false)?.Image"
                                                  alt="Product Images" />
                                         </a>
                                         <div class="product-add-action">

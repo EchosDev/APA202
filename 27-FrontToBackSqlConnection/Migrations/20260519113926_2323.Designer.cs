@@ -12,8 +12,8 @@ using _27_FrontToBackSqlConnection.Data;
 namespace _27_FrontToBackSqlConnection.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260513150443_Create Database")]
-    partial class CreateDatabase
+    [Migration("20260519113926_2323")]
+    partial class _2323
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -119,6 +119,29 @@ namespace _27_FrontToBackSqlConnection.Migrations
                     b.ToTable("ProductImages");
                 });
 
+            modelBuilder.Entity("_27_FrontToBackSqlConnection.Models.ProductTag", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TagId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("TagId");
+
+                    b.ToTable("ProductTags");
+                });
+
             modelBuilder.Entity("_27_FrontToBackSqlConnection.Models.Slider", b =>
                 {
                     b.Property<int>("Id")
@@ -157,6 +180,29 @@ namespace _27_FrontToBackSqlConnection.Migrations
                     b.ToTable("Sliders");
                 });
 
+            modelBuilder.Entity("_27_FrontToBackSqlConnection.Models.Tag", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tags");
+                });
+
             modelBuilder.Entity("_27_FrontToBackSqlConnection.Models.Product", b =>
                 {
                     b.HasOne("_27_FrontToBackSqlConnection.Models.Category", "Category")
@@ -179,6 +225,25 @@ namespace _27_FrontToBackSqlConnection.Migrations
                     b.Navigation("Product");
                 });
 
+            modelBuilder.Entity("_27_FrontToBackSqlConnection.Models.ProductTag", b =>
+                {
+                    b.HasOne("_27_FrontToBackSqlConnection.Models.Product", "Product")
+                        .WithMany("ProductTags")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("_27_FrontToBackSqlConnection.Models.Tag", "Tag")
+                        .WithMany("ProductTags")
+                        .HasForeignKey("TagId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("Tag");
+                });
+
             modelBuilder.Entity("_27_FrontToBackSqlConnection.Models.Category", b =>
                 {
                     b.Navigation("Products");
@@ -187,6 +252,13 @@ namespace _27_FrontToBackSqlConnection.Migrations
             modelBuilder.Entity("_27_FrontToBackSqlConnection.Models.Product", b =>
                 {
                     b.Navigation("ProductImages");
+
+                    b.Navigation("ProductTags");
+                });
+
+            modelBuilder.Entity("_27_FrontToBackSqlConnection.Models.Tag", b =>
+                {
+                    b.Navigation("ProductTags");
                 });
 #pragma warning restore 612, 618
         }

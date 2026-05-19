@@ -29,7 +29,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Migrations\" />
     <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Data\AppDbContext.cs" />
   </ItemGroup>
 
 </Project>

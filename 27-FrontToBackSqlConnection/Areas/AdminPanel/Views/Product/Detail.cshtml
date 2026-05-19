@@ -1,0 +1,56 @@
+﻿@model ProductDetailVM
+<div class="row">
+
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Category Info</h4>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>
+                                    Name
+                                </th>
+                                <th>
+                                    Price
+                                </th>
+                                <th>
+                                    Sku
+                                </th>
+                                <th>
+                                    Description
+                                </th>
+                                <th>
+                                    Category
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    @Model.Name
+                                </td>
+                                <td>
+                                    @Model.Price
+                                </td>
+                                <td>
+                                    @Model.Sku
+                                </td>
+                                <td>
+                                    @Model.Description
+                                </td>
+                                <td>
+                                    @Model.CategoryName
+                                </td>
+                                <td>
+                                    <a asp-action="index" class="btn btn-outline-warning">Back</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -37,6 +37,8 @@ namespace _27_FrontToBackSqlConnection.Controllers
                 .Where(p => !p.IsDeleted)
                 .Include(p => p.Category)
                 .Include(p => p.ProductImages.Where(pi => !pi.IsDeleted))
+                .Include(p => p.ProductTags)
+                .ThenInclude(pt => pt.Tag)
                 .FirstOrDefaultAsync(p => p.Id == id);
 
             if (product is null) return NotFound();

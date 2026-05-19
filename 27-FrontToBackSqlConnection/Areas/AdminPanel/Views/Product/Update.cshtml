@@ -1,9 +1,9 @@
-﻿@model ProductCreateVM
+﻿@model ProductUpdateVM
 
 <div class="col-md-6 grid-margin stretch-card">
     <div class="card">
         <div class="card-body">
-            <h4 class="card-title">Create Product</h4>
+            <h4 class="card-title">Update Product</h4>
             <form class="forms-sample" method="post" enctype="multipart/form-data">
 
                 @* <div class="form-group">
@@ -29,7 +29,7 @@
 
                 <div class="form-group">
                     <label for="CategoryId">Category</label>
-                    <select asp-for="CategoryId" asp-items="new SelectList(Model.Categories,nameof(Category.Id),nameof(Category.Name))" class="form-control">
+                    <select asp-for="CategoryId" asp-items="new SelectList(Model.Categories, nameof(Category.Id), nameof(Category.Name))" class="form-control">
                         <option value="" disabled selected>Choose Category</option>
                     </select>
                     <span asp-validation-for="CategoryId" class="text-danger"></span>
@@ -37,8 +37,8 @@
 
                 <div class="form-group">
                     <label for="TagIds">Tag</label>
-                    <select asp-for="TagIds" asp-items="new SelectList(Model.Tags,nameof(Tag.Id),nameof(Tag.Name))" class="form-control">
-                        <option value="" disabled selected>Choose Tag</option>
+                    <select asp-for="TagIds" asp-items="new SelectList(Model.Tags, nameof(Tag.Id), nameof(Tag.Name))" class="form-control" multiple>
+                        <option value="" disabled selected>Choose Tags</option>
                     </select>
                     <span asp-validation-for="TagIds" class="text-danger"></span>
                 </div>
