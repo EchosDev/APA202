@@ -1,6 +1,8 @@
 ﻿using _27_FrontToBackSqlConnection.Areas.AdminPanel.ViewModels;
 using _27_FrontToBackSqlConnection.Data;
 using _27_FrontToBackSqlConnection.Models;
+using _27_FrontToBackSqlConnection.Utilities.Enums;
+using _27_FrontToBackSqlConnection.Utilities.Extentions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -55,6 +57,30 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
 
             if (!ModelState.IsValid) return View(productCreateVM);
 
+            if (!productCreateVM.MainPhoto.CheckFileType("/image"))
+            {
+                ModelState.AddModelError(nameof(ProductCreateVM.MainPhoto), "File type must be image.");
+                return View(productCreateVM);
+            }
+
+            if (!productCreateVM.HoverPhoto.CheckFileType("/image"))
+            {
+                ModelState.AddModelError(nameof(ProductCreateVM.HoverPhoto), "File type must be image.");
+                return View(productCreateVM);
+            }
+
+            if (!productCreateVM.MainPhoto.CheckFileSize(FileSize.MB, 2))
+            {
+                ModelState.AddModelError(nameof(ProductCreateVM.MainPhoto), "File size must be max 2MB.");
+                return View(productCreateVM);
+            }
+
+            if (!productCreateVM.HoverPhoto.CheckFileSize(FileSize.MB, 2))
+            {
+                ModelState.AddModelError(nameof(ProductCreateVM.HoverPhoto), "File size must be max 2MB.");
+                return View(productCreateVM);
+            }
+
             bool existCategory = productCreateVM.Categories.Any(c => c.Id == productCreateVM.CategoryId);
             if (!existCategory)
             {
@@ -64,13 +90,25 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
 
             if (productCreateVM.TagIds is not null)
             {
-                bool exitTags = productCreateVM.TagIds.Any(tagId => !productCreateVM.Tags.Exists(t => t.Id == tagId));
-                if (exitTags)
+                bool existTags = productCreateVM.TagIds.Any(tagId => !productCreateVM.Tags.Exists(t => t.Id == tagId));
+                if (existTags)
                 {
                     ModelState.AddModelError(nameof(ProductCreateVM.TagIds), "Tags is not valid.");
                     return View(productCreateVM);
                 }
             }
+
+            ProductImage mainPhoto = new()
+            {
+                Image = await productCreateVM.MainPhoto.CreateFile(_env.WebRootPath, "assets", "images", "website-images"),
+                IsPrimary = true
+            };
+
+            ProductImage hoverPhoto = new()
+            {
+                Image = await productCreateVM.HoverPhoto.CreateFile(_env.WebRootPath, "assets", "images", "website-images"),
+                IsPrimary = false
+            };
 
             Product newProduct = new()
             {
@@ -79,6 +117,7 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
                 Sku = productCreateVM.Sku,
                 CategoryId = productCreateVM.CategoryId.Value,
                 Description = productCreateVM.Description,
+                ProductImages = new() { mainPhoto, hoverPhoto },
             };
 
             if (productCreateVM.TagIds is not null)
@@ -127,10 +166,13 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
         {
             if (id is null || id < 1) return BadRequest();
 
-            Product? product = await _context.Products.FirstOrDefaultAsync(p => p.Id == id && !p.IsDeleted);
+            Product? product = await _context.Products
+                .Include(p => p.ProductTags)
+                .FirstOrDefaultAsync(p => p.Id == id && !p.IsDeleted);
             if (product is null) return NotFound();
 
             productUpdateVM.Categories = await _context.Categories.Where(c => !c.IsDeleted).ToListAsync();
+            productUpdateVM.Tags = await _context.Tags.Where(t => !t.IsDeleted).ToListAsync();
 
             if (!ModelState.IsValid) return View(productUpdateVM);
 
@@ -140,6 +182,37 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
                 ModelState.AddModelError(nameof(ProductUpdateVM.CategoryId), "Category is not valid.");
                 return View(productUpdateVM);
             }
+
+            if (productUpdateVM.TagIds is not null)
+            {
+                bool existTags = productUpdateVM.TagIds.Any(tagId => !productUpdateVM.Tags.Exists(t => t.Id == tagId));
+                if (existTags)
+                {
+                    ModelState.AddModelError(nameof(ProductUpdateVM.TagIds), "Tags is not valid.");
+                    return View(productUpdateVM);
+                }
+            }
+
+            if (productUpdateVM.TagIds is null)
+            {
+                productUpdateVM.TagIds = new();
+            }
+            List<ProductTag> deletedTags = product.ProductTags
+                .Where(pTag => !productUpdateVM.TagIds
+                .Exists(tId => tId == pTag.TagId)).ToList();
+
+            List<ProductTag> newTags = productUpdateVM.TagIds
+                .Where(tId => !product.ProductTags
+                .Exists(pTag => pTag.TagId == tId))
+                .Select(tagId => new ProductTag
+                {
+                    TagId = tagId,
+                    ProductId = product.Id
+                })
+                .ToList();
+
+            _context.ProductTags.RemoveRange(deletedTags);
+            _context.ProductTags.AddRange(newTags);
 
             product.Name = productUpdateVM.Name;
             product.Price = productUpdateVM.Price;

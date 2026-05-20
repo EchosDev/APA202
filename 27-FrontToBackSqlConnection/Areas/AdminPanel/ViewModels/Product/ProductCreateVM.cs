@@ -5,6 +5,9 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.ViewModels
 {
     public class ProductCreateVM
     {
+        public IFormFile MainPhoto { get; set; }
+        public IFormFile HoverPhoto { get; set; }
+        public List<IFormFile>? AdditionalPhotos { get; set; }
         [Required(ErrorMessage ="Name is required")]
         public string Name { get; set; }
         [Required(ErrorMessage = "Price is required")]
