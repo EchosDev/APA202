@@ -9,6 +9,7 @@
             <div class="card-body">
                 <h4 class="card-title">Products</h4>
                 <a asp-action="create" class="btn btn-outline-success btn-fw">Add Product</a>
+                @Html.Raw(TempData["Warning"])
                 <div class="table-responsive">
                     <table class="table table-striped">
                         <thead>

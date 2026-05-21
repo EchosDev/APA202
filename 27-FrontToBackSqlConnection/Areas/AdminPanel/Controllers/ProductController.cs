@@ -57,13 +57,13 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
 
             if (!ModelState.IsValid) return View(productCreateVM);
 
-            if (!productCreateVM.MainPhoto.CheckFileType("/image"))
+            if (!productCreateVM.MainPhoto.CheckFileType("image/"))
             {
                 ModelState.AddModelError(nameof(ProductCreateVM.MainPhoto), "File type must be image.");
                 return View(productCreateVM);
             }
 
-            if (!productCreateVM.HoverPhoto.CheckFileType("/image"))
+            if (!productCreateVM.HoverPhoto.CheckFileType("image/"))
             {
                 ModelState.AddModelError(nameof(ProductCreateVM.HoverPhoto), "File type must be image.");
                 return View(productCreateVM);
@@ -128,6 +128,35 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
                 }).ToList();
             }
 
+            if (productCreateVM.AdditionalPhotos is not null)
+            {
+                string warningText = string.Empty;
+
+                foreach (IFormFile file in productCreateVM.AdditionalPhotos)
+                {
+                    if (!file.CheckFileType("image/"))
+                    {
+                
+                        warningText += $"<p class=\"text-danger\">{file.FileName} is not a valid image file. </p>";
+                        continue;
+                    }
+
+                    if (!file.CheckFileSize(FileSize.MB, 2))
+                    {
+                        warningText += $"<p class=\"text-danger\">{file.FileName} exceeds the maximum file size of 2MB. </p>";
+                        continue;
+                    }
+
+                    newProduct.ProductImages.Add(new ProductImage
+                    {
+                        Image= await productCreateVM.HoverPhoto.CreateFile(_env.WebRootPath, "assets", "images", "website-images"),
+                        IsPrimary = null
+                    });
+                }
+
+                TempData["Warning"] = warningText;
+            }
+
             await _context.Products.AddAsync(newProduct);
             await _context.SaveChangesAsync();
 
@@ -140,6 +169,7 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
 
             Product? product = await _context.Products
                 .Include(p => p.Category)
+                .Include(p => p.ProductImages)
                 .Include(p => p.ProductTags)
                 .ThenInclude(pt => pt.Tag)
                 .FirstOrDefaultAsync(p => p.Id == id && !p.IsDeleted);
@@ -156,6 +186,7 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
                 TagIds = product.ProductTags.Select(pt => pt.TagId).ToList(),
                 Tags = await _context.Tags.Where(t => !t.IsDeleted).ToListAsync(),
                 Categories = await _context.Categories.Where(c => !c.IsDeleted).ToListAsync(),
+                ProductImages = product.ProductImages
             };
 
             return View(productUpdateVM);
@@ -232,6 +263,14 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
             Product? product = await _context.Products.FirstOrDefaultAsync(p => p.Id == id && !p.IsDeleted);
 
             if (product is null) return NotFound();
+
+            if(product.ProductImages is not null)
+            {
+                foreach (ProductImage productImage in product.ProductImages)
+                {
+                    productImage.Image.DeleteFile(_env.WebRootPath, "assets", "images", "website-images");
+                }
+            }
 
             _context.Products.Remove(product);
 

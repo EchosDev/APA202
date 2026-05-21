@@ -5,22 +5,21 @@
         <div class="card-body">
             <h4 class="card-title">Create Product</h4>
             <form class="forms-sample" method="post" enctype="multipart/form-data">
-
                 <div class="form-group">
                     <label for="MainPhoto">Main Photo</label>
-                    <input asp-for="MainPhoto" class="form-control" placeholder="Main Photo" accept="image/*">
+                    <input asp-for="MainPhoto" class="form-control"  accept="image/*">
                     <span asp-validation-for="MainPhoto" class="text-danger"></span>
                 </div>
                 <div class="form-group">
                     <label for="HoverPhoto">Secondary Photo</label>
-                    <input asp-for="HoverPhoto" class="form-control" placeholder="Secondary Photo" accept="image/*">
+                    <input asp-for="HoverPhoto" class="form-control"  accept="image/*">
                     <span asp-validation-for="HoverPhoto" class="text-danger"></span>
                 </div>
-                @* <div class="form-group">
+                <div class="form-group">
                     <label for="AdditionalPhotos">Additional Photos</label>
-                    <input asp-for="AdditionalPhotos" class="form-control" placeholder="Additional Photos">
+                    <input asp-for="AdditionalPhotos" class="form-control"  accept="image/*">
                     <span asp-validation-for="AdditionalPhotos" class="text-danger"></span>
-                </div> *@
+                </div>
                 <div class="form-group">
                     <label for="Name">Name</label>
                     <input asp-for="Name" class="form-control" placeholder="Name">

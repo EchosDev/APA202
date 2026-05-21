@@ -5,12 +5,38 @@
         <div class="card-body">
             <h4 class="card-title">Update Product</h4>
             <form class="forms-sample" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <div><img style="width: 100px;height:100px" src="~/assets/images/website-images/@Model.ProductImages.FirstOrDefault(pi => pi.IsPrimary == true)?.Image" /></div>
+                    <label for="MainPhoto">Main Photo</label>
+                    <input asp-for="MainPhoto" class="form-control" accept="image/*">
+                    <span asp-validation-for="MainPhoto" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <div><img style="width: 100px;height:100px" src="~/assets/images/website-images/@Model.ProductImages.FirstOrDefault(pi => pi.IsPrimary == false)?.Image" /></div>
+                    <label for="HoverPhoto">Secondary Photo</label>
+                    <input asp-for="HoverPhoto" class="form-control" accept="image/*">
+                    <span asp-validation-for="HoverPhoto" class="text-danger"></span>
+                </div>
+                <div class="form-group d-flex">
+                    @foreach (var additionalPhoto in Model.ProductImages.Where(pi => pi.IsPrimary == null))
+                    {
+                        <div class="position-relative">
+                            <img style="width: 100px;height:100px" src="~/assets/images/website-images/@additionalPhoto.Image" />
+                            <i style="cursor: pointer; font-size: 20px; position: absolute; top: 3px; right: 3px;" class="custom-btn mdi mdi-close-circle"></i>
+                            <input asp-for="ImageIds" type="hidden" value="@additionalPhoto.Id" />
+                        </div>
+                    }   
+                </div>
 
-                @* <div class="form-group">
-                    <label for="Photo">Image</label>
-                    <input asp-for="Photo" class="form-control" placeholder="Image">
-                    <span asp-validation-for="Photo" class="text-danger"></span>
-                </div> *@
+
+                <div class="form-group">
+                    <label for="AdditionalPhotos">Additional Photos</label>
+                    <input asp-for="AdditionalPhotos" class="form-control" accept="image/*">
+                    <span asp-validation-for="ImageIds" class="text-danger"></span>
+                </div>
+
+
+
                 <div class="form-group">
                     <label for="Name">Name</label>
                     <input asp-for="Name" class="form-control" placeholder="Name">
@@ -55,3 +81,14 @@
         </div>
     </div>
 </div>
+
+<script>
+    let btns = document.querySelectorAll('.custom-btn');
+
+    for (let i = 0; i < btns.length; i++) {
+        btns[i].addEventListener('click', () => {
+            btns[i].parentElement.remove();
+        });
+    }
+
+</script>
