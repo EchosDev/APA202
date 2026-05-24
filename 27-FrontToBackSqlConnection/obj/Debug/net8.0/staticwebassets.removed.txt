@@ -1,0 +1,3 @@
+C:\Users\yek82\Desktop\Projects\APA202\27-FrontToBackSqlConnection\wwwroot\assets\images\website-images\815addb9-1e56-4706-bc61-5eac561d39e0.ico
+C:\Users\yek82\Desktop\Projects\APA202\27-FrontToBackSqlConnection\wwwroot\assets\images\website-images\997558c7-9cf1-4499-8249-942c9c0fd875.jpg
+C:\Users\yek82\Desktop\Projects\APA202\27-FrontToBackSqlConnection\wwwroot\assets\images\website-images\f0683ac3-7bb7-42c3-8025-12683b4d801b.png
