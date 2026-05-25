@@ -3,52 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|c:\\users\\yek82\\desktop\\projects\\apa202\\27-fronttobacksqlconnection\\areas\\adminpanel\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|c:\\users\\yek82\\desktop\\projects\\apa202\\27-fronttobacksqlconnection\\views\\accaunt\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|solutionrelative:views\\accaunt\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|c:\\users\\yek82\\desktop\\projects\\apa202\\27-fronttobacksqlconnection\\utilities\\extentions\\filevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|solutionrelative:utilities\\extentions\\filevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|c:\\users\\yek82\\desktop\\projects\\apa202\\27-fronttobacksqlconnection\\controllers\\accauntcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|solutionrelative:controllers\\accauntcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|c:\\users\\yek82\\desktop\\projects\\apa202\\27-fronttobacksqlconnection\\areas\\adminpanel\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|c:\\users\\yek82\\desktop\\projects\\apa202\\27-fronttobacksqlconnection\\areas\\adminpanel\\viewmodels\\product\\productcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\viewmodels\\product\\productcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|c:\\users\\yek82\\desktop\\projects\\apa202\\27-fronttobacksqlconnection\\areas\\adminpanel\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|c:\\users\\yek82\\desktop\\projects\\apa202\\27-fronttobacksqlconnection\\areas\\adminpanel\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|c:\\users\\yek82\\desktop\\projects\\apa202\\27-fronttobacksqlconnection\\areas\\adminpanel\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|c:\\users\\yek82\\desktop\\projects\\apa202\\27-fronttobacksqlconnection\\viewmodels\\accaunt\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|solutionrelative:viewmodels\\accaunt\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|c:\\users\\yek82\\desktop\\projects\\apa202\\27-fronttobacksqlconnection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|c:\\users\\yek82\\desktop\\projects\\apa202\\27-fronttobacksqlconnection\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|c:\\users\\yek82\\desktop\\projects\\apa202\\27-fronttobacksqlconnection\\areas\\adminpanel\\viewmodels\\product\\productupdatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\viewmodels\\product\\productupdatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|c:\\users\\yek82\\desktop\\projects\\apa202\\27-fronttobacksqlconnection\\areas\\adminpanel\\viewmodels\\product\\productgetvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\viewmodels\\product\\productgetvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|c:\\users\\yek82\\desktop\\projects\\apa202\\27-fronttobacksqlconnection\\areas\\adminpanel\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BDC506F8-1957-42D3-89AE-15894AC4A680}|27-FrontToBackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,154 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Areas\\AdminPanel\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAMEAAAAAAAAAAAAAADMAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T10:52:42.59Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Product\\Update.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Views\\Product\\Update.cshtml",
-              "ToolTip": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Product\\Update.cshtml",
-              "RelativeToolTip": "Areas\\AdminPanel\\Views\\Product\\Update.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-21T11:11:49.242Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FileValidator.cs",
-              "DocumentMoniker": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\Utilities\\Extentions\\FileValidator.cs",
-              "RelativeDocumentMoniker": "Utilities\\Extentions\\FileValidator.cs",
-              "ToolTip": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\Utilities\\Extentions\\FileValidator.cs",
-              "RelativeToolTip": "Utilities\\Extentions\\FileValidator.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T20:36:45.639Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Product\\Create.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Views\\Product\\Create.cshtml",
-              "ToolTip": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Product\\Create.cshtml",
-              "RelativeToolTip": "Areas\\AdminPanel\\Views\\Product\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-22T20:26:03.983Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProductCreateVM.cs",
-              "DocumentMoniker": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\ViewModels\\Product\\ProductCreateVM.cs",
-              "RelativeDocumentMoniker": "Areas\\AdminPanel\\ViewModels\\Product\\ProductCreateVM.cs",
-              "ToolTip": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\ViewModels\\Product\\ProductCreateVM.cs",
-              "RelativeToolTip": "Areas\\AdminPanel\\ViewModels\\Product\\ProductCreateVM.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T20:25:54.119Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Areas\\AdminPanel\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T19:43:44.931Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T19:34:52.806Z"
+              "WhenOpened": "2026-05-25T16:14:44.681Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProductGetVM.cs",
-              "DocumentMoniker": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\ViewModels\\Product\\ProductGetVM.cs",
-              "RelativeDocumentMoniker": "Areas\\AdminPanel\\ViewModels\\Product\\ProductGetVM.cs",
-              "ToolTip": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\ViewModels\\Product\\ProductGetVM.cs",
-              "RelativeToolTip": "Areas\\AdminPanel\\ViewModels\\Product\\ProductGetVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "AccauntController.cs",
+              "DocumentMoniker": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\Controllers\\AccauntController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccauntController.cs",
+              "ToolTip": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\Controllers\\AccauntController.cs",
+              "RelativeToolTip": "Controllers\\AccauntController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T11:20:50.453Z"
+              "WhenOpened": "2026-05-25T16:13:04.82Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Views\\Product\\Index.cshtml",
-              "ToolTip": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "Areas\\AdminPanel\\Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAkwEcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "RegisterVM.cs",
+              "DocumentMoniker": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\ViewModels\\Accaunt\\RegisterVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Accaunt\\RegisterVM.cs",
+              "ToolTip": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\ViewModels\\Accaunt\\RegisterVM.cs",
+              "RelativeToolTip": "ViewModels\\Accaunt\\RegisterVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T15:56:05.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\Views\\Accaunt\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Accaunt\\Register.cshtml",
+              "ToolTip": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\Views\\Accaunt\\Register.cshtml",
+              "RelativeToolTip": "Views\\Accaunt\\Register.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-22T11:19:29.885Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SliderController.cs",
-              "DocumentMoniker": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Controllers\\SliderController.cs",
-              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Controllers\\SliderController.cs",
-              "ToolTip": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Controllers\\SliderController.cs",
-              "RelativeToolTip": "Areas\\AdminPanel\\Controllers\\SliderController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T19:43:47.191Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAB3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-22T18:25:04.904Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProductUpdateVM.cs",
-              "DocumentMoniker": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\ViewModels\\Product\\ProductUpdateVM.cs",
-              "RelativeDocumentMoniker": "Areas\\AdminPanel\\ViewModels\\Product\\ProductUpdateVM.cs",
-              "ToolTip": "C:\\Users\\yek82\\Desktop\\Projects\\APA202\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\ViewModels\\Product\\ProductUpdateVM.cs",
-              "RelativeToolTip": "Areas\\AdminPanel\\ViewModels\\Product\\ProductUpdateVM.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T11:12:43.611Z"
+              "WhenOpened": "2026-05-25T15:52:40.336Z",
+              "EditorCaption": ""
             }
           ]
         }
