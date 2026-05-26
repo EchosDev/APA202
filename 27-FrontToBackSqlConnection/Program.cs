@@ -23,12 +23,15 @@ namespace _27_FrontToBackSqlConnection
                 opt.Password.RequireUppercase = false;
 
                 opt.User.RequireUniqueEmail = true;
+
+                opt.Lockout.MaxFailedAccessAttempts = 3;
             }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 
             var app = builder.Build();
 
             app.UseStaticFiles();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(
